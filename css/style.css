@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  background: #efefef;
+  font-family: 'Lato', sans-serif;
+}
+
+video {
+  position: fixed;
+  left: 50%;
+  top: -10%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+.title {
+  color: #FFFFFF;
+  padding: 30px;
+  font-size: 30px;
+}
+
+.university {
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 200;
+  margin-top: -35px;
+}
+
+.btn {
+  background: #fe3843;
+  color: #FFFFFF;
+  border: 1px solid #fe3843;
+  border-radius: 4px;
+  padding: 7px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+main {
+  display: flex;
+
+}
+
+.thread {
+  background: #FFF;
+  margin-left: 50px;
+  margin-top: 70px;
+  padding: 50px;
+  border-radius: 4px;
+
+  /* o código abaixo transforma a div em uma div 'flexbox' */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
