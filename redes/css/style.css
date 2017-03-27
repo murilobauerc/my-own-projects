@@ -12,6 +12,13 @@ video {
   transition: 1s opacity;
 }
 
+a.home {
+  background: #efefef;
+  font-family: 'Lato', sans-serif;
+  margin-left: 30px;
+}
+
+
 body {
   margin: 0;
   background: #efefef;
