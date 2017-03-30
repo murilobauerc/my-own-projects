@@ -13,9 +13,16 @@ video {
 }
 
 a.home {
-  background: #efefef;
-  font-family: 'Lato', sans-serif;
-  margin-left: 30px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: 200;
+    font-size: 14px;
+    border: 1px solid;
+    border-color: #5a6267;
+    color: #32373a;
 }
 
 
