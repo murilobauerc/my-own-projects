@@ -1,2 +1,2 @@
 # introducao-a-redes
-> Em andamento 
+> Site sobre redes de computadores, HTML+CSS+JS
