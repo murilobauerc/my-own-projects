@@ -1,2 +1,7 @@
-Website feito para disciplina de Redes de Computadores I
-# [Acesse o site](https://murilobauerc.github.io/redes/)
+# Website's Progress
+
+|       To do       |        Doing            |          Done           |
+| ------------------|:-----------------------:| -----------------------:|
+|                   | Cards Munchkin          | [Redes de Computadores I](https://murilobauerc.github.io/redes/) |
+|                   |                         |                         |
+|                   |                         |                         |
