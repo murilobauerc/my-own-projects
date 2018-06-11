@@ -2,6 +2,8 @@
 
 |       To do       |        Doing            |          Done           |
 | ------------------|:-----------------------:| -----------------------:|
-|                   | Cards Munchkin          | [Redes de Computadores I](https://murilobauerc.github.io/redes/) |
+|                   |                         | [Redes de Computadores I](https://murilobauerc.github.io/redes/) |
+|                   |   Cards Munchkin        |                         |
+|                   |                         |                         |
 |                   |                         |                         |
 |                   |                         |                         |
