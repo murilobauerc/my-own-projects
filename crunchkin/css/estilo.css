@@ -1,0 +1,94 @@
+html, 
+body {
+    height: 100%;
+}
+
+body {
+	background-image: url("../assets/crawlbackground.jpg");
+	background-size: cover;
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.personagens-container {
+  display: flex;
+	justify-content: space-around;
+}
+
+.card {
+	background: #FFF;
+	border-radius: 4px;
+	width: 200px;
+	height: 290px;
+	cursor: pointer;
+
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card:hover {
+	z-index: 2;
+}
+
+.active {
+	z-index: 5;
+	box-shadow: 2px 4px 233px 5px rgba(104,58,183,1);
+}
+
+.card > h2 {
+	width: 100%;
+	padding: 10px 0;
+	border-bottom: 1px solid #3F51B5;
+	border-top: 3px solid #9C27B0;
+	margin: 0;
+}
+
+.card-header {
+	width: 100%;
+	background: aquamarine;
+	border-radius: 4px;
+	position: relative;
+}
+
+.card-header > span {
+	position: absolute;
+	left: 0;
+	width: 20px;
+	background: #673AB7;
+	color: #FFF;
+	padding: 5px;
+	border-radius: 50%;
+	margin: 9px;
+	font-size: 16px;
+}
+
+.card-header > img {
+	height: 130px;
+}
+
+.card:nth-child(1) { transform: rotate(-20deg);  }
+.card:nth-child(2) { transform: rotate(-10deg); margin-top: -50px; }
+.card:nth-child(3) { transform: rotate(10deg); margin-top: -50px; }
+.card:nth-child(4) { transform: rotate(20deg);  }
+
+.btn {
+	border-radius: 4px;
+	padding: 12px 20px;
+	color: #fff;
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+
+.btn-primary {
+	background: #f93d66;
+}
+
+.btn-secondary {
+
+}

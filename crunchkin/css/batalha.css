@@ -1,0 +1,24 @@
+/* Futuro */
+#battle {
+	background: rgba(233, 30, 99, 0.43);
+	border-radius: 50%;
+	box-shadow: 2px 4px 233px 5px #E91E63;
+	position: absolute;
+	top: 20px;
+}
+
+#battle > h2 {
+	color: #FFF;
+}
+
+.card-battle {
+	background: none;
+}
+
+.card-battle > img {
+	height: 230px;
+}
+
+.card-battle > span:first-child {
+	background: #E91E63;
+}
