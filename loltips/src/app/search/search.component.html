@@ -1,0 +1,38 @@
+<div class="header">
+  <div class="search-name-movie">
+    <input type="text" class="insert-film" placeholder="Digite o nome do invocador..." [(ngModel)]="search">
+      <div *ngIf="error.length != 0">
+        <router-outlet> </router-outlet>
+      </div>
+  </div>
+  <button class="btn btn-primary" (click)="searchUser()">
+    Search
+  </button>
+</div>
+
+<section id="results" class="bg-light">
+  <h1>Results of Search: {{actualSearch}}</h1>
+  <table class="table table-hover center-table">
+      <thead>
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">accountId</th>
+          <th scope="col">name</th>
+          <th scope="col">profileIconId</th>
+          <th scope="col">revisionDate</th>
+          <th scope="col">summonerLevel</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let result of resultsArray">
+          <th scope="row">{{result.id}}</th>
+          <td>{{result.accountId}}</td>
+          <td>{{result.name}}</td>
+          <td>{{result.profileIconId}}</td> 
+          <td>{{result.revisionDate}} </td>
+          <td>{{result.summonerLevel}}</td>
+          <!-- <td><img src={{result.profileIconId}}/> </td> -->
+        </tr>
+      </tbody>
+    </table>
+</section>
