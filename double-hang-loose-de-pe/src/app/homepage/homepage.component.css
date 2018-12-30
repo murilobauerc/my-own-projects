@@ -1,0 +1,10 @@
+.text {
+    display: flex;
+
+    justify-content: center;
+    margin: 10% 0;
+    min-height: 200px;
+    align-items: center;
+    color: floralwhite;
+    text-shadow: 3px 15px 7px #000000;
+}
